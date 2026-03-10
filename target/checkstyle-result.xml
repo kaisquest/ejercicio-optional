@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.45.1">
+<file name="D:\Curso2526\Programacion\ejerciciosOptional\ejemplo_optional\src\main\java\com\permuta\App.java">
+</file>
+<file name="D:\Curso2526\Programacion\ejerciciosOptional\ejemplo_optional\src\main\java\com\permuta\model\entity\Usuario.java">
+<error line="3" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+</file>
+<file name="D:\Curso2526\Programacion\ejerciciosOptional\ejemplo_optional\src\main\java\com\permuta\repo\IUsuarioRepo.java">
+<error line="5" column="1" severity="error" message="Extra separation in import group before &apos;com.permuta.Usuario&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="5" column="1" severity="error" message="Wrong order for &apos;com.permuta.Usuario&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="7" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="8" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="D:\Curso2526\Programacion\ejerciciosOptional\ejemplo_optional\src\test\java\com\permuta\AppTest.java">
+</file>
+</checkstyle>
